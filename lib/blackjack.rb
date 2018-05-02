@@ -85,7 +85,7 @@ def runner
   # run_program
   # code runner here
   welcome 
-  cards = initial_roundl
+  cards = initial_round
   until cards > 21
    cards = hit?(cards)
    display_card_total(cards)
